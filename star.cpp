@@ -13,12 +13,6 @@ int main(int argc, char* argv[]) {
   int n;
 
   // Checking parameters
-  /*
-  if (argc != 2) {
-    printf("Usage: ./star\n");
-    return -1;
-  }
-  */
   try {
     n = stoi(argv[1]);
   }
